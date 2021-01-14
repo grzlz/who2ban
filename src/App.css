@@ -11,12 +11,12 @@
 element.style {
   background: darkslategrey;
 }
-.mainLayout {
+.searchBar {
   background-color: white;
   padding: 0;
   height: auto;
 }
 
-.mainLayout .ant-btn {
+.searchBar .ant-btn {
   background: #001529;
 }

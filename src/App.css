@@ -1,12 +1,23 @@
 .App {
   text-align: center;
   margin: 0;
+  background-color: white;
 }
 
 .search {
   position:relative;
 }
 
+.resultado {
+  background: #fff;
+  padding-top: 5%;
+}
+
+.cards {
+  padding-left: 5%;
+  padding-top: 5%;
+  background: #fff;
+}
 
 element.style {
   background: darkslategrey;
@@ -15,8 +26,11 @@ element.style {
   background-color: white;
   padding: 0;
   height: auto;
+
 }
 
 .searchBar .ant-btn {
   background: #001529;
+  color: #ffff;
+  border-color: #001529;
 }

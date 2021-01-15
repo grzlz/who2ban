@@ -17,7 +17,7 @@ export default function Tarjeta() {
                 <Col span={8}>
                     <Card
                         hoverable
-                        style={{ width: 440 }}
+                        style={{ width: 340 }}
                         cover={<img alt="example" src= {champions[0].img} />}
                     >
                         <Meta title={champions[0].name} description={champions[0].winrate} />
@@ -27,7 +27,7 @@ export default function Tarjeta() {
                 <Col span={8}>
                     <Card
                         hoverable
-                        style={{ width: 440 }}
+                        style={{ width: 340 }}
                         cover={<img alt="example" src={champions[1].img} />}
                     >
                         <Meta title={champions[1].name} description={champions[1].winrate} />
@@ -38,7 +38,7 @@ export default function Tarjeta() {
                 <Col span={8}>
                     <Card
                         hoverable
-                        style={{ width: 440 }}
+                        style={{ width: 340 }}
                         cover={<img alt="example" src= {champions[2].img} />}
                     >
                         <Meta title={champions[2].name} description={champions[2].winrate} />

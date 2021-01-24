@@ -1,8 +1,7 @@
 import React from 'react'
-import { Menu, Layout } from 'antd'
+import { Menu } from 'antd'
 import 'antd/dist/antd.css'
 
-const { Header } = Layout
 
 export default function Navigation() {
     return (

@@ -4,7 +4,7 @@ import Navigation from './Navigation'
 import SearchBar from './SearchBar'
 import About from './About'
 import Resultados from './Resultados'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import 'antd/dist/antd.css'
 
 const { Header } = Layout;
@@ -21,7 +21,7 @@ function App() {
           <Layout.Content>
             <Route path='/about' component={About }/>
             <Route path='/' exact component={SearchBar}/>
-            <Route path='/resultados' component={Resultados}/>
+            <Route exact path='/resultados' component={Resultados}/>
           </Layout.Content>
         </Layout>
 

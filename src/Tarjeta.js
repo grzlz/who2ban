@@ -3,7 +3,7 @@ import { Card, Col, Row } from 'antd'
 
 const { Meta } = Card;
 
-export default function Tarjeta() {
+export default function Tarjeta(props) {
 
     const champions = [
         { name: 'Zed', winrate: '15%', img: 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg' },
@@ -17,17 +17,17 @@ export default function Tarjeta() {
                 <Col span={8}>
                     <Card
                         hoverable
-                        style={{ width: 340 }}
+                        style={{ width: 330 }}
                         cover={<img alt="example" src= {champions[0].img} />}
                     >
-                        <Meta title={champions[0].name} description={champions[0].winrate} />
+                        <Meta title={ props.nombre } description={champions[0].winrate} />
                     </Card>
 
                 </Col>
                 <Col span={8}>
                     <Card
                         hoverable
-                        style={{ width: 340 }}
+                        style={{ width: 330 }}
                         cover={<img alt="example" src={champions[1].img} />}
                     >
                         <Meta title={champions[1].name} description={champions[1].winrate} />
@@ -38,7 +38,7 @@ export default function Tarjeta() {
                 <Col span={8}>
                     <Card
                         hoverable
-                        style={{ width: 340 }}
+                        style={{ width: 330 }}
                         cover={<img alt="example" src= {champions[2].img} />}
                     >
                         <Meta title={champions[2].name} description={champions[2].winrate} />

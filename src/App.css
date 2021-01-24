@@ -23,10 +23,24 @@ element.style {
   background: darkslategrey;
 }
 .searchBar {
+  display: flex;
+  justify-content: center;
   background-color: white;
   padding: 0;
-  height: auto;
 
+}
+
+.box-test {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.inpt {
+  flex: 3
+}
+
+.btn-test {
+  flex:1
 }
 
 .searchBar .ant-btn {
